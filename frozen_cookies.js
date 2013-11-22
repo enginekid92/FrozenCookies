@@ -4,7 +4,7 @@ var scriptElement = document.getElementById( 'frozenCookieScript' ),
 		scriptElement.getAttribute('src').replace(/\/frozen_cookies\.js$/, '') :
 		'https://raw.github.com/enginekid92/FrozenCookies/master',
 	FrozenCookies = {
-		'baseUrl': baseUrl,
+		'baseUrl': 'https://raw.github.com/enginekid92/FrozenCookies/master',
 		'branch' : 'M',
 		'version': 1.03934
 	};
