@@ -301,8 +301,8 @@ function writeFCButton(setting) {
 }
 
 function getSpeed(current) {
-  var newSpeed = prompt('How many times per second do you want to click? (Current maximum is 250 clicks per second)',current);
-  if (typeof(newSpeed) == 'undefined' || newSpeed == null || isNaN(Number(newSpeed)) || Number(newSpeed) < 0 || Number(newSpeed) > 500) {
+  var newSpeed = prompt('How many times per second do you want to click? (Current maximum is 1000 clicks per second)',current);
+  if (typeof(newSpeed) == 'undefined' || newSpeed == null || isNaN(Number(newSpeed)) || Number(newSpeed) < 0 || Number(newSpeed) > 1000) {
     newSpeed = current;
   }
   return Number(newSpeed);
